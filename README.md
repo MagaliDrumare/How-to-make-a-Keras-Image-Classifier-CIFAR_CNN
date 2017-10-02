@@ -4,7 +4,7 @@
 ```
 # initialisation du modèle. 
 model = Sequential()
-# Conv2D>MaxPooling>Dopout
+# Conv2D>MaxPooling>Dropout
 model.add(Conv2D(32, (3, 3), padding='same',
 input_shape=(IMG_ROWS, IMG_COLS, IMG_CHANNELS)))
 model.add(Activation('relu'))
