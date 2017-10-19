@@ -1,7 +1,7 @@
 
 # Réseau de neurones à convolution (CNN) 
 
-```
+```python
 # Initialisation du modèle. 
 model = Sequential()
 
